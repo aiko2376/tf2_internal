@@ -7,10 +7,16 @@
     <Filter Include="sdk">
       <UniqueIdentifier>{91769b2d-e850-4a2b-a306-e441a3f88561}</UniqueIdentifier>
     </Filter>
+    <Filter Include="sdk\offsets">
+      <UniqueIdentifier>{391907d1-5d53-4c24-9a52-e66b5efec4f5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sdk.h">
       <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>sdk\offsets</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
