@@ -3,4 +3,14 @@
   <ItemGroup>
     <ClCompile Include="entry.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{91769b2d-e850-4a2b-a306-e441a3f88561}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdk.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

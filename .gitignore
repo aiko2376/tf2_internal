@@ -30,3 +30,16 @@
 *.exe
 *.out
 *.app
+*.db-shm
+*.db-wal
+*.db
+.vs/tf2_internal/v17/.suo
+*.opendb
+*.ipch
+*.log
+*.tlog
+*.idb
+*.pdb
+*.recipe
+*.iobj
+*.ipdb
