@@ -7,3 +7,5 @@
 #include "minhook.h"
 
 #include "offsets.h"
+
+#include "client.h"
