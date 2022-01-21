@@ -6,6 +6,7 @@
 
 #include "minhook.h"
 
+#include "utils.h"
 #include "offsets.h"
 
 #include "client.h"

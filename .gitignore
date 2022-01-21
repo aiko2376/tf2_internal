@@ -42,3 +42,4 @@
 *.recipe
 *.iobj
 *.ipdb
+.vs/tf2_internal/project-colors.json

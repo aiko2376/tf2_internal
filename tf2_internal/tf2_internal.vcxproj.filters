@@ -19,6 +19,9 @@
     <Filter Include="client">
       <UniqueIdentifier>{b5f075f1-22c4-493f-8a9c-9d91f33ea4cb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="sdk\utils">
+      <UniqueIdentifier>{15f70329-2f05-42fd-8d91-f50a08cad680}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sdk.h">
@@ -32,6 +35,9 @@
     </ClInclude>
     <ClInclude Include="client.h">
       <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>sdk\utils</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
