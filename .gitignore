@@ -43,3 +43,5 @@
 *.iobj
 *.ipdb
 .vs/tf2_internal/project-colors.json
+output/intermediates/Debug/tf2_internal.ilk
+.vs/tf2_internal/v16/.suo
