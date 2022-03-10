@@ -80,19 +80,19 @@ void module_t::populate_interfaces( uint8_t* reg ) {
 
 	interface_reg* cur_iface = nullptr;
 
-	auto ifaces = 0;
-
 	for ( cur_iface = interface_list; cur_iface; cur_iface = cur_iface->m_next ) {
 		if ( !cur_iface->m_create_fn )
 			continue;
 
-		ifaces++;
-		auto addr = reinterpret_cast< uintptr_t* >( cur_iface->m_create_fn( ) );
-		this->m_interfaces.emplace_back( cur_iface->m_name, g_utils.fnv_hash( cur_iface->m_name ), addr );
+		this->m_interfaces.emplace_back( 
+			cur_iface->m_name,
+			g_utils.fnv_hash( cur_iface->m_name ), 
+			reinterpret_cast< uintptr_t* >( cur_iface->m_create_fn( ) )
+		);
 	}
 
 	g_utils.m_debug.set_console_color( e_console_colors::console_color_cyan );
-	printf_s( _( "populated %i interfaces (%s)\n" ), ifaces, this->m_name );
+	printf_s( _( "populated %i interfaces (%s)\n" ), this->m_interfaces.size( ), this->m_name );
 }
 
 interface_t module_t::get_interface( const char* name, bool exact ) {
