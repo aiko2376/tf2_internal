@@ -7,9 +7,6 @@
     <Filter Include="client">
       <UniqueIdentifier>{14e3d804-441c-499b-bb1b-86248b9f1b88}</UniqueIdentifier>
     </Filter>
-    <Filter Include="sdk\xor">
-      <UniqueIdentifier>{c86dddb9-6661-47b2-be66-4824bae2012c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="sdk\utils">
       <UniqueIdentifier>{652d1c97-610a-49fa-b407-3a3604569bb4}</UniqueIdentifier>
     </Filter>
@@ -36,6 +33,9 @@
     </Filter>
     <Filter Include="sdk\offsets">
       <UniqueIdentifier>{ce81a51f-ef09-40d9-8d01-ecfd0564b052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\enc">
+      <UniqueIdentifier>{c86dddb9-6661-47b2-be66-4824bae2012c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -72,8 +72,8 @@
     <ClInclude Include="client.h">
       <Filter>client</Filter>
     </ClInclude>
-    <ClInclude Include="xor.h">
-      <Filter>sdk\xor</Filter>
+    <ClInclude Include="enc.h">
+      <Filter>sdk\enc</Filter>
     </ClInclude>
     <ClInclude Include="utils.h">
       <Filter>sdk\utils</Filter>

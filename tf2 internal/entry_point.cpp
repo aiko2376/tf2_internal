@@ -13,7 +13,6 @@ __forceinline unsigned long __stdcall cheat_thread( _In_ LPVOID reserved ) {
 
 BOOL WINAPI DllMain( _In_ HMODULE hmodule, _In_ DWORD reason, _In_ LPVOID reserved ) {
 	if ( reason == DLL_PROCESS_ATTACH ) {
-
 		if ( auto* const thread_handle = CreateThread( nullptr, 0, cheat_thread, hmodule, 0, nullptr ) )
 			CloseHandle( thread_handle );
 	}

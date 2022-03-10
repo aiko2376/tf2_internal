@@ -6,11 +6,6 @@ void c_interfaces::gather( ) {
 	}
 }
 
-void c_interfaces::add( module_t mod, const char* name ) {
-}
-
 void c_interfaces::init( ) {
-
-
 	this->gather( );
 }

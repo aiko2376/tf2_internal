@@ -2,7 +2,6 @@
 
 class c_interfaces {
 	void gather( );
-	void add( module_t mod, const char* name );
 public:
 	void init( );
 

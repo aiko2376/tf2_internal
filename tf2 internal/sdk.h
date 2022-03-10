@@ -5,7 +5,7 @@
 #include <chrono>
 #include <deque>
 
-#include "xor.h"
+#include "enc.h"
 #include "modules.h"
 
 #include "utils.h"
