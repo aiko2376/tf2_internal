@@ -2,6 +2,13 @@
 
 // this is probably overengineered to shit, but it works and i like it.
 void c_modules::init( ) {
+	g_utils.m_debug.print( _( "waiting for serverbrowser" ) );
+
+	// wait for serverbrowser.dll.
+	while ( !GetModuleHandleA( _( "serverbrowser.dll" ) ) ) {
+		std::this_thread::sleep_for( std::chrono::milliseconds( 200 ) );
+	}
+
 	this->add( _( "client.dll" ) );
 	this->add( _( "server.dll" ) );
 	this->add( _( "engine.dll" ) );
@@ -68,7 +75,7 @@ void module_t::populate_interfaces( uint8_t* reg ) {
 	if ( !interface_list ) {
 		g_utils.m_debug.set_console_color( e_console_colors::console_color_red );
 		printf_s( _( "failed to populate interfaces for (%s)" ), this->m_name );
-		return;
+		return;	
 	}
 
 	interface_reg* cur_iface = nullptr;
@@ -80,7 +87,7 @@ void module_t::populate_interfaces( uint8_t* reg ) {
 			continue;
 
 		ifaces++;
-		auto addr = reinterpret_cast< uintptr_t* >( cur_iface->m_create_fn );
+		auto addr = reinterpret_cast< uintptr_t* >( cur_iface->m_create_fn( ) );
 		this->m_interfaces.emplace_back( cur_iface->m_name, g_utils.fnv_hash( cur_iface->m_name ), addr );
 	}
 
