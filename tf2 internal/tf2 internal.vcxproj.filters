@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{265fc734-6329-4346-b95c-84c4614cc4d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client">
+      <UniqueIdentifier>{14e3d804-441c-499b-bb1b-86248b9f1b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\xor">
+      <UniqueIdentifier>{c86dddb9-6661-47b2-be66-4824bae2012c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\utils">
+      <UniqueIdentifier>{652d1c97-610a-49fa-b407-3a3604569bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tier0">
+      <UniqueIdentifier>{11b2dd70-7439-404b-a893-efba25eb93e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2">
+      <UniqueIdentifier>{6406da68-9546-434c-9ce5-eb95489af1da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\modules">
+      <UniqueIdentifier>{06948b81-4dab-43e4-be9e-b7dda7404cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\interfaces">
+      <UniqueIdentifier>{948e6383-10e5-40bf-9b8e-05d5f3f046c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\interfaces\classes">
+      <UniqueIdentifier>{9528dd4d-19f0-4bbf-be01-a2255e6b1bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes">
+      <UniqueIdentifier>{f1ddb390-eba0-4f79-9b19-4e271b622d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\mem">
+      <UniqueIdentifier>{be58465a-1ee5-4413-8399-1a63f6b716f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\offsets">
+      <UniqueIdentifier>{ce81a51f-ef09-40d9-8d01-ecfd0564b052}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry_point.cpp" />
+    <ClCompile Include="client.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="tier0.cpp">
+      <Filter>sdk\tier0</Filter>
+    </ClCompile>
+    <ClCompile Include="tf2.cpp">
+      <Filter>sdk\tf2</Filter>
+    </ClCompile>
+    <ClCompile Include="modules.cpp">
+      <Filter>sdk\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="interfaces.cpp">
+      <Filter>sdk\tf2\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>sdk\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets.cpp">
+      <Filter>sdk\offsets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdk.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>sdk\xor</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="tier0.h">
+      <Filter>sdk\tier0</Filter>
+    </ClInclude>
+    <ClInclude Include="tf2.h">
+      <Filter>sdk\tf2</Filter>
+    </ClInclude>
+    <ClInclude Include="modules.h">
+      <Filter>sdk\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces.h">
+      <Filter>sdk\tf2\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="i_base_client_dll.h">
+      <Filter>sdk\tf2\interfaces\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_global_vars_base.h">
+      <Filter>sdk\tf2\interfaces\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="client_class.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_recv.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="button_code.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>sdk\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>sdk\offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="interface_reg.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
