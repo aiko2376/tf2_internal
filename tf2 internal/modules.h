@@ -11,7 +11,7 @@ struct interface_t {
 
 	template < typename T >
 	T* as( ) {
-		return reinterpret_cast< T* >( this );
+		return reinterpret_cast< T* >( this->m_ptr );
 	}
 };
 
