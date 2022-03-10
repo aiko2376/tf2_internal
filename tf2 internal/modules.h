@@ -28,9 +28,8 @@ public:
 	T get_proc_address( const char* proc ) {
 		auto proc_addr = reinterpret_cast< T >( GetProcAddress( this->m_module, proc ) );
 
-		if ( !proc_addr ) {
+		if ( !proc_addr )
 			printf_s( _( "failed to get %s (%s)\n" ), proc, this->m_name );
-		}
 
 		return proc_addr;
 	}
