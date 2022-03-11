@@ -2,5 +2,5 @@
 
 class view_matrix {
 public:
-	float mat[ 4 ][ 4 ];
+	float m_mat[ 4 ][ 4 ];
 };
