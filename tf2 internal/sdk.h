@@ -23,5 +23,6 @@
 #include "offsets.h"
 #include "tf2.h"
 #include "interfaces.h"
+#include "netvars.h"
 
 #include "client.h"

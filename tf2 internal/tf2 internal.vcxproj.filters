@@ -37,6 +37,9 @@
     <Filter Include="sdk\enc">
       <UniqueIdentifier>{c86dddb9-6661-47b2-be66-4824bae2012c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="sdk\netvars">
+      <UniqueIdentifier>{73e10d11-72d7-49ee-a4b4-9595c960b21f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="entry_point.cpp" />
@@ -63,6 +66,9 @@
     </ClCompile>
     <ClCompile Include="offsets.cpp">
       <Filter>sdk\offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="netvars.cpp">
+      <Filter>sdk\netvars</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -113,6 +119,9 @@
     </ClInclude>
     <ClInclude Include="interface_reg.h">
       <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="netvars.h">
+      <Filter>sdk\netvars</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

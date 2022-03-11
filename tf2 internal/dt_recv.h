@@ -47,7 +47,6 @@ public:
 	e_send_prop_types m_recv_type;
 	int m_flags;
 	int	m_string_buffer_size;
-private:
 	bool m_inside_array;
 	const void* m_extra_data;
 	recv_prop* m_array_prop;
@@ -62,6 +61,7 @@ private:
 };
 
 class recv_table {
+public:
 	recv_prop* m_props;
 	int	m_num_of_props;
 	c_recv_decoder* m_decoder;

@@ -93,6 +93,7 @@
     <ClCompile Include="interfaces.cpp" />
     <ClCompile Include="mem.cpp" />
     <ClCompile Include="modules.cpp" />
+    <ClCompile Include="netvars.cpp" />
     <ClCompile Include="offsets.cpp" />
     <ClCompile Include="tf2.cpp" />
     <ClCompile Include="tier0.cpp" />
@@ -109,6 +110,7 @@
     <ClInclude Include="i_base_client_dll.h" />
     <ClInclude Include="mem.h" />
     <ClInclude Include="modules.h" />
+    <ClInclude Include="netvars.h" />
     <ClInclude Include="offsets.h" />
     <ClInclude Include="sdk.h" />
     <ClInclude Include="tf2.h" />
