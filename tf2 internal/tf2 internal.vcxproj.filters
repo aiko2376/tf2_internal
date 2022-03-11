@@ -144,5 +144,17 @@
     <ClInclude Include="view_matrix.h">
       <Filter>sdk\tf2\math</Filter>
     </ClInclude>
+    <ClInclude Include="data_map.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="i_file_list.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="renamed_recv_table_info.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="mouth_info.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

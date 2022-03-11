@@ -3,6 +3,11 @@
 class recv_table;
 class recv_prop;
 class c_recv_decoder;
+class c_recv_proxy_data;
+
+typedef void ( *recv_var_proxy_fn )( const c_recv_proxy_data* data, void* strct, void* out );
+typedef void ( *array_length_proxy_fn )( void* strct, int object_id, int current_array_length );
+typedef void ( *data_table_recv_var_proxy_fn )( const recv_prop* prop, void** out, void* data, int object_id );
 
 typedef enum {
 	dpt_int = 0,
@@ -36,10 +41,14 @@ public:
 	int m_ObjectID;
 };
 
-
-typedef void ( *recv_var_proxy_fn )( const c_recv_proxy_data* data, void* strct, void* out );
-typedef void ( *array_length_proxy_fn )( void* strct, int object_id, int current_array_length );
-typedef void ( *data_table_recv_var_proxy_fn )( const recv_prop* prop, void** out, void* data, int object_id );
+class c_standard_recv_proxies {
+public:
+	recv_var_proxy_fn m_int_32_to_int_8;
+	recv_var_proxy_fn m_int_32_to_int_16;
+	recv_var_proxy_fn m_int_32_to_int_32;
+	recv_var_proxy_fn m_float_to_float;
+	recv_var_proxy_fn m_vector_to_vector;
+};
 
 class recv_prop {
 public:
