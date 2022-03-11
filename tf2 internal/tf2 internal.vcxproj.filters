@@ -40,6 +40,9 @@
     <Filter Include="sdk\netvars">
       <UniqueIdentifier>{73e10d11-72d7-49ee-a4b4-9595c960b21f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="sdk\tf2\math">
+      <UniqueIdentifier>{54d776c9-f501-4f7c-ae28-b0a35050951e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="entry_point.cpp" />
@@ -122,6 +125,24 @@
     </ClInclude>
     <ClInclude Include="netvars.h">
       <Filter>sdk\netvars</Filter>
+    </ClInclude>
+    <ClInclude Include="bit_buf.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="base_types.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="view_setup.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>sdk\tf2\math</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_2d.h">
+      <Filter>sdk\tf2\math</Filter>
+    </ClInclude>
+    <ClInclude Include="view_matrix.h">
+      <Filter>sdk\tf2\math</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

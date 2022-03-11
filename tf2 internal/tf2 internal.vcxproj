@@ -100,6 +100,8 @@
     <ClCompile Include="utils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="base_types.h" />
+    <ClInclude Include="bit_buf.h" />
     <ClInclude Include="button_code.h" />
     <ClInclude Include="client.h" />
     <ClInclude Include="client_class.h" />
@@ -117,6 +119,10 @@
     <ClInclude Include="tier0.h" />
     <ClInclude Include="utils.h" />
     <ClInclude Include="enc.h" />
+    <ClInclude Include="vector.h" />
+    <ClInclude Include="vector_2d.h" />
+    <ClInclude Include="view_matrix.h" />
+    <ClInclude Include="view_setup.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
