@@ -18,6 +18,7 @@
 #include "dt_recv.h"
 #include "client_class.h"
 #include "button_code.h"
+#include "bitbuf.h"
 #include "i_base_client_dll.h"
 
 #include "offsets.h"
