@@ -39,6 +39,7 @@
 #include "c_global_vars_base.h"
 #include "i_base_client_dll.h"
 #include "iv_engine_client.h"
+#include "i_prediction.h"
 
 #include "offsets.h"
 #include "tf2.h"

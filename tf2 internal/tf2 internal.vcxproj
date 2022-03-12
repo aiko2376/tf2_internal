@@ -115,6 +115,7 @@
     <ClInclude Include="i_base_client_dll.h" />
     <ClInclude Include="i_file_list.h" />
     <ClInclude Include="i_net_channel_info.h" />
+    <ClInclude Include="i_prediction.h" />
     <ClInclude Include="i_spatial_query.h" />
     <ClInclude Include="key_values.h" />
     <ClInclude Include="matrix_3x4.h" />
