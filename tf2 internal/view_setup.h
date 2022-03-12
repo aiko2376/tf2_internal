@@ -1,5 +1,4 @@
 #pragma once
-
 enum stereo_eye_t {
 	STEREO_EYE_MONO = 0,
 	STEREO_EYE_LEFT = 1,

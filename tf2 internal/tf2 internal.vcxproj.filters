@@ -28,9 +28,6 @@
     <Filter Include="sdk\tf2\classes">
       <UniqueIdentifier>{f1ddb390-eba0-4f79-9b19-4e271b622d2d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="sdk\mem">
-      <UniqueIdentifier>{be58465a-1ee5-4413-8399-1a63f6b716f8}</UniqueIdentifier>
-    </Filter>
     <Filter Include="sdk\offsets">
       <UniqueIdentifier>{ce81a51f-ef09-40d9-8d01-ecfd0564b052}</UniqueIdentifier>
     </Filter>
@@ -110,9 +107,6 @@
     </ClInclude>
     <ClInclude Include="button_code.h">
       <Filter>sdk\tf2\classes</Filter>
-    </ClInclude>
-    <ClInclude Include="mem.h">
-      <Filter>sdk\mem</Filter>
     </ClInclude>
     <ClInclude Include="offsets.h">
       <Filter>sdk\offsets</Filter>

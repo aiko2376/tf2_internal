@@ -123,7 +123,6 @@
     <ClInclude Include="i_spatial_query.h" />
     <ClInclude Include="key_values.h" />
     <ClInclude Include="matrix_3x4.h" />
-    <ClInclude Include="mem.h" />
     <ClInclude Include="modes.h" />
     <ClInclude Include="modules.h" />
     <ClInclude Include="mouth_info.h" />
