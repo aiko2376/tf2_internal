@@ -6,7 +6,6 @@ void c_client::init( ) {
 	g_modules.init( );
 	g_tf2.init( );
 	g_tier0.warning( _( "init\n" ) );
-	g_interfaces.m_engine->client_cmd_unrestricted( "say test! :D" );
 }
 
 void c_client::unload( ) {
