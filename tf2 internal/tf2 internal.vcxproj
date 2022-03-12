@@ -91,7 +91,6 @@
     <ClCompile Include="client.cpp" />
     <ClCompile Include="entry_point.cpp" />
     <ClCompile Include="interfaces.cpp" />
-    <ClCompile Include="mem.cpp" />
     <ClCompile Include="modules.cpp" />
     <ClCompile Include="netvars.cpp" />
     <ClCompile Include="offsets.cpp" />

@@ -64,9 +64,6 @@
     <ClCompile Include="interfaces.cpp">
       <Filter>sdk\tf2\interfaces</Filter>
     </ClCompile>
-    <ClCompile Include="mem.cpp">
-      <Filter>sdk\mem</Filter>
-    </ClCompile>
     <ClCompile Include="offsets.cpp">
       <Filter>sdk\offsets</Filter>
     </ClCompile>

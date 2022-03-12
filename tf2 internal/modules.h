@@ -15,6 +15,14 @@ struct interface_t {
 	}
 };
 
+struct signature_t {
+	uint8_t* m_ptr;
+
+	uint8_t* add( uint8_t offset ) {
+		return this->m_ptr + offset;
+	}
+};
+
 struct module_t {
 private:
 	interface_t get_interface_exact( const char* name );
@@ -36,6 +44,7 @@ public:
 
 	void populate_interfaces( uint8_t* reg );
 	interface_t get_interface( const char* name, bool exact = false );
+	signature_t get_sig( const char* sig );
 };
 
 
