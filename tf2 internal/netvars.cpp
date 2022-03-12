@@ -19,6 +19,9 @@ void c_netvars::init( ) {
 
 		cc = cc->m_next;
 	}
+
+	g_utils.m_debug.set_console_color( e_console_colors::console_color_cyan );
+	printf_s( _( "populated %i netvars\n" ), this->m_netvars.size( ) );
 }
 
 netvar_t c_netvars::get( const char* table, const char* var ) {
