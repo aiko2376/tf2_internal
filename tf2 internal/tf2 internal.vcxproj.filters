@@ -153,5 +153,29 @@
     <ClInclude Include="mouth_info.h">
       <Filter>sdk\tf2\classes</Filter>
     </ClInclude>
+    <ClInclude Include="iv_engine_client.h">
+      <Filter>sdk\tf2\interfaces\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="client_text_message.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="i_spatial_query.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="i_net_channel_info.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix_3x4.h">
+      <Filter>sdk\tf2\math</Filter>
+    </ClInclude>
+    <ClInclude Include="modes.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="i_achievement_mgr.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="key_values.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

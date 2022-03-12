@@ -11,6 +11,8 @@
 #include "vector.h"
 #include "vector_2d.h"
 #include "view_matrix.h"
+#include "matrix_3x4.h"
+
 #include "utils.h"
 #include "mem.h"
 
@@ -27,10 +29,16 @@
 #include "i_file_list.h"
 #include "renamed_recv_table_info.h"
 #include "mouth_info.h"
-
+#include "client_text_message.h"
+#include "i_spatial_query.h"
+#include "i_net_channel_info.h"
+#include "modes.h"
+#include "i_achievement_mgr.h"
+#include "key_values.h"
 
 #include "c_global_vars_base.h"
 #include "i_base_client_dll.h"
+#include "iv_engine_client.h"
 
 #include "offsets.h"
 #include "tf2.h"
