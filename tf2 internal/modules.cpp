@@ -164,7 +164,7 @@ signature_t module_t::get_sig( const char* sig ) {
 			return { &scan_bytes[ i ] };
 	}
 
-	return { } ;
+	return { };
 }
 
 interface_t module_t::get_interface_exact( const char* name ) {	
