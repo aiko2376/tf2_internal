@@ -180,5 +180,20 @@
     <ClInclude Include="i_prediction.h">
       <Filter>sdk\tf2\interfaces\classes</Filter>
     </ClInclude>
+    <ClInclude Include="i_engine_sound.h">
+      <Filter>sdk\tf2\interfaces\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="i_recipient_filter.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_utl_memory.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_utl_vector.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="snd_info.h">
+      <Filter>sdk\tf2\classes</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

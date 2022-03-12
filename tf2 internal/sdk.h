@@ -18,6 +18,8 @@
 
 #include "tier0.h"
 
+#include "c_utl_memory.h"
+#include "c_utl_vector.h"
 #include "interface_reg.h"
 #include "dt_recv.h"
 #include "client_class.h"
@@ -35,11 +37,14 @@
 #include "modes.h"
 #include "i_achievement_mgr.h"
 #include "key_values.h"
+#include "i_recipient_filter.h"
+#include "snd_info.h"
 
 #include "c_global_vars_base.h"
 #include "i_base_client_dll.h"
 #include "iv_engine_client.h"
 #include "i_prediction.h"
+#include "i_engine_sound.h"
 
 #include "offsets.h"
 #include "tf2.h"

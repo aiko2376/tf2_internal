@@ -4,6 +4,8 @@
 // todo: maybe add later?
 class c_engine_sprite;
 class c_save_restore_data;
+struct x_user_context;
+struct x_user_property;
 
 // todo: remove when i add convars
 class i_convar;
@@ -89,7 +91,7 @@ public:
 	virtual int get_screen_height( ) = 0;
 	virtual void write_save_game_screenshot_of_size( const char* file_name, int width, int height, bool create_power_of_2_padded = false, bool write_vtf = false ) = 0;
 	virtual bool get_player_view( c_view_setup& player_view ) = 0;
-	virtual void setup_game_properties( int contexts, int properties ) = 0; // todo: add cutlvector ( CUtlVector< XUSER_CONTEXT >&, CUtlVector< XUSER_PROPERTY >& )
+	virtual void setup_game_properties( c_utl_vector< x_user_context >& contexts, c_utl_vector< x_user_property >& properties ) = 0;
 	virtual int get_presence_id( const char* id_name ) = 0;
 	virtual const char* get_property_id_string( const int id ) = 0;
 	virtual void get_property_display_string( int id, int value, char* output, int bytes ) = 0;
