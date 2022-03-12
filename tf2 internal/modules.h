@@ -18,6 +18,11 @@ struct interface_t {
 struct signature_t {
 	uint8_t* m_ptr;
 
+	template < typename T >
+	T* as( ) {
+		return reinterpret_cast< T* >( this->m_ptr );
+	}
+
 	uint8_t* add( uint8_t offset ) {
 		return this->m_ptr + offset;
 	}
