@@ -40,6 +40,7 @@
 #include "i_recipient_filter.h"
 #include "snd_info.h"
 
+#include "i_base_interface.h"
 #include "c_global_vars_base.h"
 #include "i_base_client_dll.h"
 #include "iv_engine_client.h"
