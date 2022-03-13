@@ -136,6 +136,12 @@
     <Filter Include="sdk\tf2\entity">
       <UniqueIdentifier>{854b2d6c-66a8-4dbd-8289-9a41593cb28f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="sdk\tf2\entity\i_handle_entity">
+      <UniqueIdentifier>{61ac1f7f-f65b-44fb-a58c-0ae13e8cc03e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\entity\c_base_handle">
+      <UniqueIdentifier>{9b79d9b0-fe00-4203-83e7-3b952f0fde2e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="entry_point.cpp" />
@@ -293,6 +299,12 @@
     </ClInclude>
     <ClInclude Include="sound_info.h">
       <Filter>sdk\tf2\classes\sound_info</Filter>
+    </ClInclude>
+    <ClInclude Include="c_base_handle.h">
+      <Filter>sdk\tf2\entity\c_base_handle</Filter>
+    </ClInclude>
+    <ClInclude Include="i_handle_entity.h">
+      <Filter>sdk\tf2\entity\i_handle_entity</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

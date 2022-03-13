@@ -40,6 +40,8 @@
 #include "i_recipient_filter.h"
 #include "snd_info.h"
 #include "sound_info.h"
+#include "c_base_handle.h"
+#include "i_handle_entity.h"
 
 #include "c_global_vars_base.h"
 #include "i_base_client_dll.h"
