@@ -1,5 +1,6 @@
 #pragma once
 
+// forward decl.
 enum sound_level_t;
 
 struct sound_info_t {
