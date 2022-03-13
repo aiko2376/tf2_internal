@@ -138,6 +138,7 @@
     <ClInclude Include="i_prediction.h" />
     <ClInclude Include="i_recipient_filter.h" />
     <ClInclude Include="i_spatial_query.h" />
+    <ClInclude Include="i_surface.h" />
     <ClInclude Include="key_values.h" />
     <ClInclude Include="matrix_3x4.h" />
     <ClInclude Include="minhook\minhook.h" />

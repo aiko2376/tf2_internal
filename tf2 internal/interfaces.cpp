@@ -12,6 +12,10 @@ void c_interfaces::gather( ) {
 		this->m_engine_sound = engine.get_interface( _( "IEngineSoundClient0" ) ).as< i_engine_sound >( );
 		this->m_engine_vgui = engine.get_interface( _( "VEngineVGui0" ) ).as< i_engine_vgui >( );
 	}
+
+	auto vgui_mat_surface = g_modules.get( _( "vguimatsurface.dll" ) ); {
+		this->m_surface = vgui_mat_surface.get_interface( _( "VGUI_Surface0" ) ).as< i_surface >( );
+	}
 }
 
 void c_interfaces::init( ) {

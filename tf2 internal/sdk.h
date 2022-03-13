@@ -57,6 +57,7 @@
 #include "i_engine_sound.h"
 #include "i_client_entity_list.h"
 #include "i_engine_vgui.h"
+#include "i_surface.h"
 
 #include "offsets.h"
 #include "tf2.h"

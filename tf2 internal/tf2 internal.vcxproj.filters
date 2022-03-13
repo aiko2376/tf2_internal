@@ -169,6 +169,9 @@
     <Filter Include="sdk\tf2\interfaces\classes\i_engine_vgui">
       <UniqueIdentifier>{6d0ec596-8c6f-41f5-b368-994072696369}</UniqueIdentifier>
     </Filter>
+    <Filter Include="sdk\tf2\interfaces\classes\i_surface">
+      <UniqueIdentifier>{8b83f393-8fef-4b84-a95a-44cc99b16074}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="entry_point.cpp" />
@@ -362,6 +365,9 @@
     </ClInclude>
     <ClInclude Include="i_engine_vgui.h">
       <Filter>sdk\tf2\interfaces\classes\i_engine_vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="i_surface.h">
+      <Filter>sdk\tf2\interfaces\classes\i_surface</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
