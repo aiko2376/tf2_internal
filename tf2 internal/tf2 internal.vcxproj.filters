@@ -142,6 +142,12 @@
     <Filter Include="sdk\tf2\entity\c_base_handle">
       <UniqueIdentifier>{9b79d9b0-fe00-4203-83e7-3b952f0fde2e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="sdk\tf2\entity\i_client_entity">
+      <UniqueIdentifier>{2decc2a3-ad4a-4861-97c4-9c85fccb32a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\entity\i_client_unknown">
+      <UniqueIdentifier>{4c83ab21-6081-4cd6-b1dd-82a1da0ab0d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="entry_point.cpp" />
@@ -305,6 +311,12 @@
     </ClInclude>
     <ClInclude Include="i_handle_entity.h">
       <Filter>sdk\tf2\entity\i_handle_entity</Filter>
+    </ClInclude>
+    <ClInclude Include="i_client_entity.h">
+      <Filter>sdk\tf2\entity\i_client_entity</Filter>
+    </ClInclude>
+    <ClInclude Include="i_client_unknown.h">
+      <Filter>sdk\tf2\entity\i_client_unknown</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
