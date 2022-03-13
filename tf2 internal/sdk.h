@@ -53,6 +53,7 @@
 #include "iv_engine_client.h"
 #include "i_prediction.h"
 #include "i_engine_sound.h"
+#include "i_client_entity_list.h"
 
 #include "offsets.h"
 #include "tf2.h"
