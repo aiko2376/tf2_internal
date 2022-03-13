@@ -10,7 +10,7 @@ void i_surface::start_drawing( ) {
 }
 
 void i_surface::finish_drawing( ) {
-	static auto finish_drawing = reinterpret_cast< finish_drawing_fn >( g_offsets.m_sigs.start_drawing );
+	static auto finish_drawing = reinterpret_cast< finish_drawing_fn >( g_offsets.m_sigs.finish_drawing );
 
 	if ( !finish_drawing )
 		return;
