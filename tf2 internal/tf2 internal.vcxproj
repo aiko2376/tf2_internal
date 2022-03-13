@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="client.cpp" />
-    <ClCompile Include="entities.cpp" />
+    <ClCompile Include="entity.cpp" />
     <ClCompile Include="entry_point.cpp" />
     <ClCompile Include="interfaces.cpp" />
     <ClCompile Include="modules.cpp" />
@@ -111,7 +111,7 @@
     <ClInclude Include="c_utl_vector.h" />
     <ClInclude Include="data_map.h" />
     <ClInclude Include="dt_recv.h" />
-    <ClInclude Include="entities.h" />
+    <ClInclude Include="entity.h" />
     <ClInclude Include="interfaces.h" />
     <ClInclude Include="interface_reg.h" />
     <ClInclude Include="iv_engine_client.h" />
@@ -133,6 +133,7 @@
     <ClInclude Include="renamed_recv_table_info.h" />
     <ClInclude Include="sdk.h" />
     <ClInclude Include="snd_info.h" />
+    <ClInclude Include="sound_info.h" />
     <ClInclude Include="tf2.h" />
     <ClInclude Include="tier0.h" />
     <ClInclude Include="utils.h" />

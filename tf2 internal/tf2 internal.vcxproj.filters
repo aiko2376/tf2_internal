@@ -130,7 +130,10 @@
     <Filter Include="sdk\tf2\math\view_matrix">
       <UniqueIdentifier>{daae919e-86dc-4197-a4b0-07df442ef9e7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="sdk\tf2\entities">
+    <Filter Include="sdk\tf2\classes\sound_info">
+      <UniqueIdentifier>{cba76ba9-cfc1-43d1-a558-8e4220eab9df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\entity">
       <UniqueIdentifier>{854b2d6c-66a8-4dbd-8289-9a41593cb28f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -160,8 +163,8 @@
     <ClCompile Include="netvars.cpp">
       <Filter>sdk\netvars</Filter>
     </ClCompile>
-    <ClCompile Include="entities.cpp">
-      <Filter>sdk\tf2\entities</Filter>
+    <ClCompile Include="entity.cpp">
+      <Filter>sdk\tf2\entity</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -285,8 +288,11 @@
     <ClInclude Include="view_matrix.h">
       <Filter>sdk\tf2\math\view_matrix</Filter>
     </ClInclude>
-    <ClInclude Include="entities.h">
-      <Filter>sdk\tf2\entities</Filter>
+    <ClInclude Include="entity.h">
+      <Filter>sdk\tf2\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="sound_info.h">
+      <Filter>sdk\tf2\classes\sound_info</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
