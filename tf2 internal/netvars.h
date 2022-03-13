@@ -1,13 +1,12 @@
 #pragma once
 
 struct netvar_t {
-	const char* m_table;
-	const char* m_var;
+	unsigned int m_hashed_table;
+	unsigned int m_hashed_var;
 	uintptr_t m_offset;
 };
 
 class c_netvars {
-	void dump( );
 	void get_offsets( );
 public:
 	std::deque< netvar_t > m_netvars;
