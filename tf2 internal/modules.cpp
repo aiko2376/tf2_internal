@@ -119,8 +119,6 @@ interface_t module_t::get_interface_exact( const char* name ) {
 	const auto hashed_name = g_utils.fnv_hash( name );
 
 	for ( auto& iface : this->m_interfaces ) {
-		// todo: add wildcard searching which would return an array of modules.
-		// couldn't see using it, just would be nice to have.
 		if ( iface.m_hash != hashed_name )
 			continue;
 
