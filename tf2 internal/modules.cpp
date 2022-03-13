@@ -115,6 +115,26 @@ interface_t module_t::get_interface( const char* name, bool exact ) {
 	printf_s( _( "failed to get iface %s\n" ), name );
 }
 
+interface_t module_t::get_interface_exact( const char* name ) {
+	const auto hashed_name = g_utils.fnv_hash( name );
+
+	for ( auto& iface : this->m_interfaces ) {
+		// todo: add wildcard searching which would return an array of modules.
+		// couldn't see using it, just would be nice to have.
+		if ( iface.m_hash != hashed_name )
+			continue;
+
+		g_utils.m_debug.set_console_color( e_console_colors::console_color_green );
+		printf_s( _( "found %s (0x%p)\n" ), iface.m_name, iface.m_ptr );
+
+		// found.
+		return iface;
+	}
+
+	g_utils.m_debug.set_console_color( e_console_colors::console_color_red );
+	printf_s( _( "failed to get iface %s\n" ), name );
+}
+
 signature_t module_t::get_sig( const char* sig ) {
 	if ( !this->m_module )
 		return { };
@@ -165,24 +185,4 @@ signature_t module_t::get_sig( const char* sig ) {
 	}
 
 	return { };
-}
-
-interface_t module_t::get_interface_exact( const char* name ) {	
-	const auto hashed_name = g_utils.fnv_hash( name );
-
-	for ( auto& iface : this->m_interfaces ) {
-		// todo: add wildcard searching which would return an array of modules.
-		// couldn't see using it, just would be nice to have.
-		if ( iface.m_hash != hashed_name )
-			continue;
-
-		g_utils.m_debug.set_console_color( e_console_colors::console_color_green );
-		printf_s( _( "found %s (0x%p)\n" ), iface.m_name, iface.m_ptr );
-
-		// found.
-		return iface;
-	}
-
-	g_utils.m_debug.set_console_color( e_console_colors::console_color_red );
-	printf_s( _( "failed to get iface %s\n" ), name );
 }
