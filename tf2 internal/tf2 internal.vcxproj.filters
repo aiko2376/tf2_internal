@@ -40,6 +40,96 @@
     <Filter Include="sdk\tf2\math">
       <UniqueIdentifier>{54d776c9-f501-4f7c-ae28-b0a35050951e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="sdk\tf2\classes\base_types">
+      <UniqueIdentifier>{fa68a86a-8968-4503-aa44-44c7a481b082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\bit_buf">
+      <UniqueIdentifier>{fcbbcc79-ecde-4e6e-9f8c-cde52d345a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\button_code">
+      <UniqueIdentifier>{c6006e2c-9456-41a1-83f7-0b3998b00301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\c_utl_memory">
+      <UniqueIdentifier>{0410b8c0-c01a-4f38-a4b8-d52b24006ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\c_utl_vector">
+      <UniqueIdentifier>{8efd163e-38ed-435a-bffa-33b14c858ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\client_class">
+      <UniqueIdentifier>{c8628da8-964a-44f8-8744-6e6fe40361e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\client_text_message">
+      <UniqueIdentifier>{ed04fe76-adfd-450f-8fe4-39cd9cceb794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\data_map">
+      <UniqueIdentifier>{036fa851-79c0-4b13-8b29-5e4456dc626e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\dt_recv">
+      <UniqueIdentifier>{64a01c1e-b7f5-439d-9744-f84d303ae131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\i_achievement_mgr">
+      <UniqueIdentifier>{fa4e18af-9825-42fb-97e7-a8eb5c2eb996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\i_file_list">
+      <UniqueIdentifier>{bc43e177-359d-4687-99e5-fad1f8bb0273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\i_net_channel_info">
+      <UniqueIdentifier>{cbda0967-3aa4-4db5-b42d-e4cfc79b19ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\i_recipient_filter">
+      <UniqueIdentifier>{6a0c4090-00e3-4fef-8753-d9d5f4fc3eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\i_spatial_query">
+      <UniqueIdentifier>{3a233daf-c284-45b4-8dea-a8731462031f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\interface_reg">
+      <UniqueIdentifier>{89935671-d2fe-47e5-b9ef-089df096e100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\key_values">
+      <UniqueIdentifier>{8a3236c6-df71-4f06-8777-d31117cb401a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\modes">
+      <UniqueIdentifier>{3a0118fb-f43c-4022-aa39-2711d987325b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\mouth_info">
+      <UniqueIdentifier>{d3b92793-0a0f-4488-bdb3-bb9a660310f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\renamed_recv_table_info">
+      <UniqueIdentifier>{dda68545-836a-4ff1-9946-77d86f3ce378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\snd_info">
+      <UniqueIdentifier>{7839bc8d-59cb-4c35-9424-f2b8eb3fcd14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\classes\view_setup">
+      <UniqueIdentifier>{acad6e13-a13f-4e1c-bc95-2ea435359704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\interfaces\classes\c_global_vars_base">
+      <UniqueIdentifier>{a531e6d2-ab50-4cd2-ae8e-ae2c4b6798ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\interfaces\classes\i_base_client_dll">
+      <UniqueIdentifier>{7993f853-af2f-48f5-adfc-eb0c7825c430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\interfaces\classes\i_engine_sound">
+      <UniqueIdentifier>{58754da6-5e42-4dd9-88ea-ea5a9256d3fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\interfaces\classes\i_prediction">
+      <UniqueIdentifier>{3969167f-9b78-4199-b381-faf8694cbe7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\interfaces\classes\iv_engine_client">
+      <UniqueIdentifier>{b64af86f-58c9-4467-a058-ab8bba873186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\math\matrix_3x4">
+      <UniqueIdentifier>{c84223b2-9c86-441a-b946-d1705e672b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\math\vector">
+      <UniqueIdentifier>{10072d93-dd81-4f04-8cfd-2c3ee49af0df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\math\vector_2d">
+      <UniqueIdentifier>{113a8082-bb7d-4d9b-a13d-d240afa3fd54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\tf2\math\view_matrix">
+      <UniqueIdentifier>{daae919e-86dc-4197-a4b0-07df442ef9e7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="entry_point.cpp" />
@@ -93,101 +183,101 @@
     <ClInclude Include="interfaces.h">
       <Filter>sdk\tf2\interfaces</Filter>
     </ClInclude>
-    <ClInclude Include="i_base_client_dll.h">
-      <Filter>sdk\tf2\interfaces\classes</Filter>
-    </ClInclude>
-    <ClInclude Include="c_global_vars_base.h">
-      <Filter>sdk\tf2\interfaces\classes</Filter>
-    </ClInclude>
-    <ClInclude Include="client_class.h">
-      <Filter>sdk\tf2\classes</Filter>
-    </ClInclude>
-    <ClInclude Include="dt_recv.h">
-      <Filter>sdk\tf2\classes</Filter>
-    </ClInclude>
-    <ClInclude Include="button_code.h">
-      <Filter>sdk\tf2\classes</Filter>
-    </ClInclude>
     <ClInclude Include="offsets.h">
       <Filter>sdk\offsets</Filter>
-    </ClInclude>
-    <ClInclude Include="interface_reg.h">
-      <Filter>sdk\tf2\classes</Filter>
     </ClInclude>
     <ClInclude Include="netvars.h">
       <Filter>sdk\netvars</Filter>
     </ClInclude>
-    <ClInclude Include="bit_buf.h">
-      <Filter>sdk\tf2\classes</Filter>
-    </ClInclude>
     <ClInclude Include="base_types.h">
-      <Filter>sdk\tf2\classes</Filter>
+      <Filter>sdk\tf2\classes\base_types</Filter>
     </ClInclude>
-    <ClInclude Include="view_setup.h">
-      <Filter>sdk\tf2\classes</Filter>
+    <ClInclude Include="bit_buf.h">
+      <Filter>sdk\tf2\classes\bit_buf</Filter>
     </ClInclude>
-    <ClInclude Include="vector.h">
-      <Filter>sdk\tf2\math</Filter>
-    </ClInclude>
-    <ClInclude Include="vector_2d.h">
-      <Filter>sdk\tf2\math</Filter>
-    </ClInclude>
-    <ClInclude Include="view_matrix.h">
-      <Filter>sdk\tf2\math</Filter>
-    </ClInclude>
-    <ClInclude Include="data_map.h">
-      <Filter>sdk\tf2\classes</Filter>
-    </ClInclude>
-    <ClInclude Include="i_file_list.h">
-      <Filter>sdk\tf2\classes</Filter>
-    </ClInclude>
-    <ClInclude Include="renamed_recv_table_info.h">
-      <Filter>sdk\tf2\classes</Filter>
-    </ClInclude>
-    <ClInclude Include="mouth_info.h">
-      <Filter>sdk\tf2\classes</Filter>
-    </ClInclude>
-    <ClInclude Include="iv_engine_client.h">
-      <Filter>sdk\tf2\interfaces\classes</Filter>
-    </ClInclude>
-    <ClInclude Include="client_text_message.h">
-      <Filter>sdk\tf2\classes</Filter>
-    </ClInclude>
-    <ClInclude Include="i_spatial_query.h">
-      <Filter>sdk\tf2\classes</Filter>
-    </ClInclude>
-    <ClInclude Include="i_net_channel_info.h">
-      <Filter>sdk\tf2\classes</Filter>
-    </ClInclude>
-    <ClInclude Include="matrix_3x4.h">
-      <Filter>sdk\tf2\math</Filter>
-    </ClInclude>
-    <ClInclude Include="modes.h">
-      <Filter>sdk\tf2\classes</Filter>
-    </ClInclude>
-    <ClInclude Include="i_achievement_mgr.h">
-      <Filter>sdk\tf2\classes</Filter>
-    </ClInclude>
-    <ClInclude Include="key_values.h">
-      <Filter>sdk\tf2\classes</Filter>
-    </ClInclude>
-    <ClInclude Include="i_prediction.h">
-      <Filter>sdk\tf2\interfaces\classes</Filter>
-    </ClInclude>
-    <ClInclude Include="i_engine_sound.h">
-      <Filter>sdk\tf2\interfaces\classes</Filter>
-    </ClInclude>
-    <ClInclude Include="i_recipient_filter.h">
-      <Filter>sdk\tf2\classes</Filter>
+    <ClInclude Include="button_code.h">
+      <Filter>sdk\tf2\classes\button_code</Filter>
     </ClInclude>
     <ClInclude Include="c_utl_memory.h">
-      <Filter>sdk\tf2\classes</Filter>
+      <Filter>sdk\tf2\classes\c_utl_memory</Filter>
     </ClInclude>
     <ClInclude Include="c_utl_vector.h">
-      <Filter>sdk\tf2\classes</Filter>
+      <Filter>sdk\tf2\classes\c_utl_vector</Filter>
+    </ClInclude>
+    <ClInclude Include="client_class.h">
+      <Filter>sdk\tf2\classes\client_class</Filter>
+    </ClInclude>
+    <ClInclude Include="client_text_message.h">
+      <Filter>sdk\tf2\classes\client_text_message</Filter>
+    </ClInclude>
+    <ClInclude Include="data_map.h">
+      <Filter>sdk\tf2\classes\data_map</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_recv.h">
+      <Filter>sdk\tf2\classes\dt_recv</Filter>
+    </ClInclude>
+    <ClInclude Include="i_achievement_mgr.h">
+      <Filter>sdk\tf2\classes\i_achievement_mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="i_file_list.h">
+      <Filter>sdk\tf2\classes\i_file_list</Filter>
+    </ClInclude>
+    <ClInclude Include="i_net_channel_info.h">
+      <Filter>sdk\tf2\classes\i_net_channel_info</Filter>
+    </ClInclude>
+    <ClInclude Include="i_recipient_filter.h">
+      <Filter>sdk\tf2\classes\i_recipient_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="i_spatial_query.h">
+      <Filter>sdk\tf2\classes\i_spatial_query</Filter>
+    </ClInclude>
+    <ClInclude Include="interface_reg.h">
+      <Filter>sdk\tf2\classes\interface_reg</Filter>
+    </ClInclude>
+    <ClInclude Include="key_values.h">
+      <Filter>sdk\tf2\classes\key_values</Filter>
+    </ClInclude>
+    <ClInclude Include="modes.h">
+      <Filter>sdk\tf2\classes\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="mouth_info.h">
+      <Filter>sdk\tf2\classes\mouth_info</Filter>
+    </ClInclude>
+    <ClInclude Include="renamed_recv_table_info.h">
+      <Filter>sdk\tf2\classes\renamed_recv_table_info</Filter>
     </ClInclude>
     <ClInclude Include="snd_info.h">
-      <Filter>sdk\tf2\classes</Filter>
+      <Filter>sdk\tf2\classes\snd_info</Filter>
+    </ClInclude>
+    <ClInclude Include="view_setup.h">
+      <Filter>sdk\tf2\classes\view_setup</Filter>
+    </ClInclude>
+    <ClInclude Include="c_global_vars_base.h">
+      <Filter>sdk\tf2\interfaces\classes\c_global_vars_base</Filter>
+    </ClInclude>
+    <ClInclude Include="i_base_client_dll.h">
+      <Filter>sdk\tf2\interfaces\classes\i_base_client_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="i_engine_sound.h">
+      <Filter>sdk\tf2\interfaces\classes\i_engine_sound</Filter>
+    </ClInclude>
+    <ClInclude Include="i_prediction.h">
+      <Filter>sdk\tf2\interfaces\classes\i_prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="iv_engine_client.h">
+      <Filter>sdk\tf2\interfaces\classes\iv_engine_client</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix_3x4.h">
+      <Filter>sdk\tf2\math\matrix_3x4</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>sdk\tf2\math\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_2d.h">
+      <Filter>sdk\tf2\math\vector_2d</Filter>
+    </ClInclude>
+    <ClInclude Include="view_matrix.h">
+      <Filter>sdk\tf2\math\view_matrix</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
