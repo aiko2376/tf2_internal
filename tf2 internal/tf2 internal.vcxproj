@@ -100,6 +100,7 @@
     <ClCompile Include="modules.cpp" />
     <ClCompile Include="netvars.cpp" />
     <ClCompile Include="offsets.cpp" />
+    <ClCompile Include="i_surface.cpp" />
     <ClCompile Include="tf2.cpp" />
     <ClCompile Include="tier0.cpp" />
     <ClCompile Include="utils.cpp" />

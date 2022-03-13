@@ -1,7 +1,14 @@
 #include "sdk.h"
 
 void __fastcall paint( uintptr_t ecx, uintptr_t edx, paint_mode_t mode ) {
+	if ( g_cl.m_unloading )
+		return g_hooks.m_original.paint( ecx, edx, mode );
+
 	g_hooks.m_original.paint( ecx, edx, mode );
+
+	g_interfaces.m_surface->start_drawing( ); {
+
+	} g_interfaces.m_surface->finish_drawing( );
 }
 
 void c_hooks::init( ) {

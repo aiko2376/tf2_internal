@@ -205,6 +205,9 @@
     <ClCompile Include="hooks.cpp">
       <Filter>hooks</Filter>
     </ClCompile>
+    <ClCompile Include="i_surface.cpp">
+      <Filter>sdk\tf2\interfaces\classes\i_surface</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sdk.h">
