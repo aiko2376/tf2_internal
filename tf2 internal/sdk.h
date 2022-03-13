@@ -39,6 +39,7 @@
 #include "key_values.h"
 #include "i_recipient_filter.h"
 #include "snd_info.h"
+#include "sound_info.h"
 
 #include "c_global_vars_base.h"
 #include "i_base_client_dll.h"
@@ -51,6 +52,6 @@
 #include "interfaces.h"
 #include "netvars.h"
 
-#include "entities.h"
+#include "entity.h"
 
 #include "client.h"
