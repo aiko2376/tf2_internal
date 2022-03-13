@@ -25,6 +25,9 @@ void c_netvars::init( ) {
 
 	if ( g_cl.m_debug_build )
 		this->dump( );
+
+	// get our offsets.
+	this->get_offsets( );
 }
 
 netvar_t c_netvars::get( const char* table, const char* var ) {
@@ -43,7 +46,7 @@ netvar_t c_netvars::get( const char* table, const char* var ) {
 
 		// we found our netvar.
 		if ( debug_build ) {
-			g_utils.m_debug.set_console_color( e_console_colors::console_color_green );
+			g_utils.m_debug.set_console_color( e_console_colors::console_color_beige );
 			printf_s( "%s -> %i\n", var, netvar.m_offset );
 		}
 
@@ -68,4 +71,10 @@ void c_netvars::dump( ) {
 	netvar_file.close( );
 
 	g_utils.m_debug.print( _( "dumped vars to netvars.txt" ) );
+}
+
+void c_netvars::get_offsets( ) {
+	// DT_BaseEntity.
+	this->m_offsets.dt_base_entity.m_vec_origin = this->get( _( "DT_BaseEntity" ), _( "m_vecOrigin" ) ).m_offset;
+	this->m_offsets.dt_base_entity.m_i_team_num = this->get( _( "DT_BaseEntity" ), _( "m_iTeamNum" ) ).m_offset;
 }

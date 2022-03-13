@@ -51,4 +51,6 @@
 #include "interfaces.h"
 #include "netvars.h"
 
+#include "entities.h"
+
 #include "client.h"

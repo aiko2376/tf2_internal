@@ -89,6 +89,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="client.cpp" />
+    <ClCompile Include="entities.cpp" />
     <ClCompile Include="entry_point.cpp" />
     <ClCompile Include="interfaces.cpp" />
     <ClCompile Include="modules.cpp" />
@@ -110,6 +111,7 @@
     <ClInclude Include="c_utl_vector.h" />
     <ClInclude Include="data_map.h" />
     <ClInclude Include="dt_recv.h" />
+    <ClInclude Include="entities.h" />
     <ClInclude Include="interfaces.h" />
     <ClInclude Include="interface_reg.h" />
     <ClInclude Include="iv_engine_client.h" />

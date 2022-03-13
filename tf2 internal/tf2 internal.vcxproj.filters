@@ -130,6 +130,9 @@
     <Filter Include="sdk\tf2\math\view_matrix">
       <UniqueIdentifier>{daae919e-86dc-4197-a4b0-07df442ef9e7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="sdk\tf2\entities">
+      <UniqueIdentifier>{854b2d6c-66a8-4dbd-8289-9a41593cb28f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="entry_point.cpp" />
@@ -156,6 +159,9 @@
     </ClCompile>
     <ClCompile Include="netvars.cpp">
       <Filter>sdk\netvars</Filter>
+    </ClCompile>
+    <ClCompile Include="entities.cpp">
+      <Filter>sdk\tf2\entities</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -278,6 +284,9 @@
     </ClInclude>
     <ClInclude Include="view_matrix.h">
       <Filter>sdk\tf2\math\view_matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="entities.h">
+      <Filter>sdk\tf2\entities</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

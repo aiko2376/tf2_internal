@@ -8,8 +8,15 @@ struct netvar_t {
 
 class c_netvars {
 	void dump( );
+	void get_offsets( );
 public:
 	std::deque< netvar_t > m_netvars;
+
+	struct {
+		struct {
+			uintptr_t m_vec_origin, m_i_team_num;
+		} dt_base_entity;
+	} m_offsets;
 
 	void init( );
 	netvar_t get( const char* table, const char* var );
