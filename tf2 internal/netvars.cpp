@@ -28,8 +28,6 @@ void c_netvars::init( ) {
 }
 
 netvar_t c_netvars::get( const char* table, const char* var ) {
-	auto start = std::chrono::high_resolution_clock::now( );
-
 	auto hashed_table = g_utils.fnv_hash( table );
 	auto hashed_var = g_utils.fnv_hash( var );
 	auto debug_build = g_cl.m_debug_build;
