@@ -163,6 +163,9 @@
     <Filter Include="sdk\minhook">
       <UniqueIdentifier>{76bdc526-9036-4254-920e-def8ccb1d173}</UniqueIdentifier>
     </Filter>
+    <Filter Include="hooks">
+      <UniqueIdentifier>{9b1f37d0-632d-442e-9d8d-76e502ca54a2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="entry_point.cpp" />
@@ -192,6 +195,9 @@
     </ClCompile>
     <ClCompile Include="entity.cpp">
       <Filter>sdk\tf2\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks.cpp">
+      <Filter>hooks</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -347,6 +353,9 @@
     </ClInclude>
     <ClInclude Include="minhook\minhook.h">
       <Filter>sdk\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.h">
+      <Filter>hooks</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

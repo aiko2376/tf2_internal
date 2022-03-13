@@ -95,6 +95,7 @@
     <ClCompile Include="client.cpp" />
     <ClCompile Include="entity.cpp" />
     <ClCompile Include="entry_point.cpp" />
+    <ClCompile Include="hooks.cpp" />
     <ClCompile Include="interfaces.cpp" />
     <ClCompile Include="modules.cpp" />
     <ClCompile Include="netvars.cpp" />
@@ -117,6 +118,7 @@
     <ClInclude Include="data_map.h" />
     <ClInclude Include="dt_recv.h" />
     <ClInclude Include="entity.h" />
+    <ClInclude Include="hooks.h" />
     <ClInclude Include="interfaces.h" />
     <ClInclude Include="interface_reg.h" />
     <ClInclude Include="iv_engine_client.h" />

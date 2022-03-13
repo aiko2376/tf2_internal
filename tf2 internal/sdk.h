@@ -64,4 +64,5 @@
 
 #include "entity.h"
 
+#include "hooks.h"
 #include "client.h"
