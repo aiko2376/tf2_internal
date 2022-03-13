@@ -52,7 +52,6 @@ public:
 	signature_t get_sig( const char* sig );
 };
 
-
 class c_modules {
 	std::deque< module_t > modules_;
 public:
