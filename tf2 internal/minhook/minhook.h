@@ -35,7 +35,7 @@
 #include <windows.h>
 
 // MinHook Error Codes.
-typedef enum MH_STATUS
+typedef enum class MH_STATUS
 {
     // Unknown error. Should not be returned.
     MH_UNKNOWN = -1,
