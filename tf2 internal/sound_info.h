@@ -1,5 +1,7 @@
 #pragma once
 
+enum sound_level_t;
+
 struct sound_info_t {
 	int	m_sequence_number;
 	int	m_entity_index;
