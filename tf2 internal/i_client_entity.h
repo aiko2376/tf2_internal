@@ -1,6 +1,6 @@
 #pragma once
 
-class i_client_entity {
+class i_client_entity : public i_client_unknown {
 public:
 	virtual void release( void ) = 0;
 	virtual const vector& get_abs_origin( void ) const = 0;
