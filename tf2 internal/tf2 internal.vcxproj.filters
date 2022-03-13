@@ -166,6 +166,9 @@
     <Filter Include="hooks">
       <UniqueIdentifier>{9b1f37d0-632d-442e-9d8d-76e502ca54a2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="sdk\tf2\interfaces\classes\i_engine_vgui">
+      <UniqueIdentifier>{6d0ec596-8c6f-41f5-b368-994072696369}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="entry_point.cpp" />
@@ -356,6 +359,9 @@
     </ClInclude>
     <ClInclude Include="hooks.h">
       <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="i_engine_vgui.h">
+      <Filter>sdk\tf2\interfaces\classes\i_engine_vgui</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

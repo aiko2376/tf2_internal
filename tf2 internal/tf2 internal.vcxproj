@@ -131,6 +131,7 @@
     <ClInclude Include="i_client_thinkable.h" />
     <ClInclude Include="i_client_unknown.h" />
     <ClInclude Include="i_engine_sound.h" />
+    <ClInclude Include="i_engine_vgui.h" />
     <ClInclude Include="i_file_list.h" />
     <ClInclude Include="i_handle_entity.h" />
     <ClInclude Include="i_net_channel_info.h" />

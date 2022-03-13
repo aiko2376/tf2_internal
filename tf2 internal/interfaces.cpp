@@ -10,6 +10,7 @@ void c_interfaces::gather( ) {
 	auto engine = g_modules.get( _( "engine.dll" ) ); {
 		this->m_engine = engine.get_interface( _( "VEngineClient0" ) ).as< iv_engine_client >( );
 		this->m_engine_sound = engine.get_interface( _( "IEngineSoundClient0" ) ).as< i_engine_sound >( );
+		this->m_engine_vgui = engine.get_interface( _( "VEngineVGui0" ) ).as< i_engine_vgui >( );
 	}
 }
 
