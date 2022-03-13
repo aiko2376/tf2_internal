@@ -148,6 +148,9 @@
     <Filter Include="sdk\tf2\entity\i_client_unknown">
       <UniqueIdentifier>{4c83ab21-6081-4cd6-b1dd-82a1da0ab0d1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="sdk\tf2\entity\i_client_renderable">
+      <UniqueIdentifier>{0d9b4eea-07c9-4e3c-9815-b03389be7545}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="entry_point.cpp" />
@@ -317,6 +320,9 @@
     </ClInclude>
     <ClInclude Include="i_client_unknown.h">
       <Filter>sdk\tf2\entity\i_client_unknown</Filter>
+    </ClInclude>
+    <ClInclude Include="i_client_renderable.h">
+      <Filter>sdk\tf2\entity\i_client_renderable</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

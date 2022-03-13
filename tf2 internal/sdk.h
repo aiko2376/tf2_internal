@@ -43,6 +43,7 @@
 #include "c_base_handle.h"
 #include "i_handle_entity.h"
 #include "i_client_unknown.h"
+#include "i_client_renderable.h"
 #include "i_client_entity.h"
 
 #include "c_global_vars_base.h"
