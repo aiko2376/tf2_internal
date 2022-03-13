@@ -154,6 +154,9 @@
     <Filter Include="sdk\tf2\entity\i_client_networkable">
       <UniqueIdentifier>{1f317169-6fe3-43ae-9f28-de9c3e758a55}</UniqueIdentifier>
     </Filter>
+    <Filter Include="sdk\tf2\entity\i_client_thinkable">
+      <UniqueIdentifier>{4c8e42a2-8f8a-496f-af1e-64c1d542a785}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="entry_point.cpp" />
@@ -329,6 +332,9 @@
     </ClInclude>
     <ClInclude Include="i_client_networkable.h">
       <Filter>sdk\tf2\entity\i_client_networkable</Filter>
+    </ClInclude>
+    <ClInclude Include="i_client_thinkable.h">
+      <Filter>sdk\tf2\entity\i_client_thinkable</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

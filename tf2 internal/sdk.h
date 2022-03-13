@@ -45,6 +45,7 @@
 #include "i_client_unknown.h"
 #include "i_client_renderable.h"
 #include "i_client_networkable.h"
+#include "i_client_thinkable.h"
 #include "i_client_entity.h"
 
 #include "c_global_vars_base.h"
