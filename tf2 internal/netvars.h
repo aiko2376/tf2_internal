@@ -7,6 +7,7 @@ struct netvar_t {
 };
 
 class c_netvars {
+	void dump( );
 public:
 	std::deque< netvar_t > m_netvars;
 

@@ -22,6 +22,9 @@ void c_netvars::init( ) {
 
 	g_utils.m_debug.set_console_color( e_console_colors::console_color_cyan );
 	printf_s( _( "populated %i netvars\n" ), this->m_netvars.size( ) );
+
+	if ( g_cl.m_debug_build )
+		this->dump( );
 }
 
 netvar_t c_netvars::get( const char* table, const char* var ) {
@@ -51,4 +54,18 @@ netvar_t c_netvars::get( const char* table, const char* var ) {
 		g_utils.m_debug.set_console_color( e_console_colors::console_color_red );
 		printf_s( _( "failed to get %s -> %s\n" ), table, var );
 	}
+}
+
+void c_netvars::dump( ) {
+	std::fstream netvar_file( "netvars.txt", std::fstream::out );
+
+	// clear the file.
+	netvar_file.clear( );
+
+	for ( auto& netvar : this->m_netvars )
+		netvar_file << "[" << netvar.m_table << "] " << netvar.m_var << " -> " << reinterpret_cast< uintptr_t* >( netvar.m_offset ) << "\n";
+
+	netvar_file.close( );
+
+	g_utils.m_debug.print( _( "dumped vars to netvars.txt" ) );
 }

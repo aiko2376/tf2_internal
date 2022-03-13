@@ -4,6 +4,7 @@
 #include <thread>
 #include <chrono>
 #include <deque>
+#include <fstream>
 
 #include "enc.h"
 #include "modules.h"
