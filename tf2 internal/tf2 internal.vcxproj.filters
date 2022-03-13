@@ -160,6 +160,9 @@
     <Filter Include="sdk\tf2\interfaces\classes\i_client_entity_list">
       <UniqueIdentifier>{9ffb0eed-76d6-40c2-a5e2-93be83b9df95}</UniqueIdentifier>
     </Filter>
+    <Filter Include="sdk\minhook">
+      <UniqueIdentifier>{76bdc526-9036-4254-920e-def8ccb1d173}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="entry_point.cpp" />
@@ -341,6 +344,9 @@
     </ClInclude>
     <ClInclude Include="i_client_entity_list.h">
       <Filter>sdk\tf2\interfaces\classes\i_client_entity_list</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\minhook.h">
+      <Filter>sdk\minhook</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

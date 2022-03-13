@@ -6,6 +6,8 @@
 #include <deque>
 #include <fstream>
 
+#include "minhook/minhook.h"
+
 #include "enc.h"
 #include "modules.h"
 
