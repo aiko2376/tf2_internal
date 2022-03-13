@@ -13,6 +13,7 @@ void c_modules::init( ) {
 	this->add( _( "server.dll" ) );
 	this->add( _( "engine.dll" ) );
 	this->add( _( "tier0.dll" ), false );
+	this->add( _( "vguimatsurface.dll" ) );
 }
 
 module_t c_modules::get( const char* name ) {

@@ -3,13 +3,8 @@
 class c_offsets {
 public:
 	struct {
-		struct {
-			uint8_t* interface_regs;
-		} client;
-
-		struct {
-			uint8_t* interface_regs;
-		} engine;
+		uint8_t* start_drawing;
+		uint8_t* finish_drawing;
 	} m_sigs;
 
 	void init( );
